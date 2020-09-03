@@ -7,5 +7,6 @@ public class Test02 {
             System.out.println(i);
         }
         System.out.println("real?");
+        System.out.println("wow");
     }
 }
