@@ -6,7 +6,14 @@ public class Test02 {
         for (int i = 0; i < 100; i++) {
             System.out.println(i);
         }
-        System.out.println("real?");
-        System.out.println("wow");
+        for (int i = 0; i < 50; i++) {
+            System.out.println(i);
+        }
+        for (int i = 0; i < 60; i++) {
+            System.out.println(i);
+        }
+        for (int i = 0; i < 70; i++) {
+            System.out.println(i);
+        }
     }
 }
