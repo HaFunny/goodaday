@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>how2j注册页面练习</title>
+    <style>
+        span{
+            color: red;
+        }
+        #sb{
+            color: aqua;
+
+        }
+        a{
+            color: aqua;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" autocomplete="on">
+        <div>
+            <label for="username"><span>*</span>用户名:</label>
+            <input id="username" name="username" type="text" value="" minlength="3" placeholder="请输入用户名" required /><span>用户名不得小于3个字符</span>
+
+        </div>
+        <div>
+            <label for="password"><span>*</span>密码:</label>
+            <input id="password" type="password" name="password" value="" required/>
+
+        </div>
+        <label for="password"><span>*</span>确认密码:</label>
+        <input  type="password" name="password" value="" required/>
+        <div>
+            <label for="email"><span>*</span>Email:</label>
+            <input id="email" name="email" type="email" value="" required/>
+        </div>
+        <div>
+            <label for="realname"><span>*</span>真实姓名:</label>
+            <input id="realname" name="realname" type="search" value="" required/>
+        </div>
+        <div>
+            <label for="gender"><span>*</span>性别:</label>
+            <select id="gender" name="gender" required>
+                <option>男</option>
+                <option>女</option>
+            </select>
+        </div>
+        <div>
+            <label for="bir"><span>*</span>生日:</label>
+            <select id="bir" name="bir" required>
+                <option>1980</option>
+            </select>
+            <select name="bir" required>
+                <option>1</option>
+            </select>
+            <select name="bir" required>
+                <option>1</option>
+            </select>
+        </div>
+        <div>
+            <label for="tel"><span>*</span>手机:</label>
+            <input id="tel" name="tel" type="tel" value=""  required/>
+        </div>
+        <div>
+            <label for="address"><span>*</span>居住地:</label>
+            <select id="address" name="address" required>
+                <option>四川省</option>
+            </select>
+            <select name="address" required>
+                <option>成都市</option>
+            </select>
+            <select name="address" required>
+                <option>成华区</option>
+            </select>
+            <select name="address" required>
+                <option>三圣乡</option>
+            </select>
+        </div>
+        <div>
+            <label for="qq"><span>*</span>QQ:</label>
+            <input id="qq" name="qq" type="number" required/>
+        </div>
+        <div>
+            <input id="sb" type="submit" value="设置我的QQ在线状态"/>
+        </div>
+        <div>
+            <a href="#" target="_self" >设置我的QQ在线状态</a>
+        </div>
+    </form>
+</body>
+</html>

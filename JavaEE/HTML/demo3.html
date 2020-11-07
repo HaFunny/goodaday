@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <style>
+        body{
+            background: url("img/logo.png");
+        }
+        .center{
+            text-align: center;
+            background: white;
+            margin:auto;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="img/itheima.png" />
+    </div>
+    <div class="center">
+        <div>注册详情</div>
+        <hr/>
+        <form action="#" method="get" autocomplete="on">
+            <div>
+            <label for="username">用户名:
+                <input type="text" id="username" name="username" value="" placeholder="在此输入用户名" required/>
+            </label>
+            </div>
+            <div>
+            <label for="password">密码:
+                <input type="password" id="password" name="password" required/>
+            </label>
+            </div>
+            <div>
+            <label for="bir">出生日期：
+                <input type="date" id="bir" name="bir" required>
+            </label>
+            </div>
+            <div>
+            <label for="gender">性别:
+                <input type="radio" id="gender" name="gender" value="men" required>男
+                <input type="radio" name="gender" value="women" required>女
+            </label>
+            </div>
+            <div>
+            <label for="hobby">爱好:
+                <input id="hobby" name="hobby" type="checkbox" value="music">音乐
+                <input name="hobby" type="checkbox" value="movie">电影
+                <input name="hobby" type="checkbox" value="read">读书
+                <input name="hobby" type="checkbox" value="sport">健身
+            </label>
+            </div>
+            <div>
+            <label for="city">所在城市:</label>
+            <select id="city" name="city" required>
+                <option>---所在地城市---</option>
+                <optgroup label="直辖市">
+                <option>北京</option>
+                <option>上海</option>
+                </optgroup>
+                <optgroup label="省会市">
+                    <option>济南</option>
+                    <option>武汉</option>
+                </optgroup>
+            </select>
+            </div>
+            <div>
+                个人介绍<textarea name="txt" rows="10" cols="20"></textarea>
+            </div>
+            <hr/>
+            <button type="submit">提交</button>
+            <button type="reset">重置</button>
+        </form>
+    </div>
+</body>
+</html>

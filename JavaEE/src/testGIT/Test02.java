@@ -15,5 +15,8 @@ public class Test02 {
         for (int i = 0; i < 70; i++) {
             System.out.println(i);
         }
+        for (int i = 0; i < 30; i++) {
+            System.out.println(i);
+        }
     }
 }

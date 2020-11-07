@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <style>
+        body{
+            background: url("img/bg.png");
+
+        }
+        .center{
+            text-align: center;
+            width: 40%;
+            margin-top: 100px;
+            margin: auto;
+            border-radius: 15px;
+            background: white;
+        }
+        .center th{
+            color: red;
+            font-size: 30px;
+        }
+        button{
+            width: 95%;
+            color: white;
+            background: red;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 5px;
+            border: solid red;
+        }
+        tbody label{
+            font-size: 20px;
+        }
+        tbody input{
+            border-radius: 5px;
+            width: 90%;
+            height: 40px;
+            outline: none;
+            border: 1px solid gray;
+        }
+        tr{
+            line-height: 60px;
+        }
+        .footer{
+            width: 35%; /*宽度*/
+            margin: auto;   /*水平居中外边距*/
+            font-size: 15px;    /*字体大小*/
+            color: gray;    /*字体颜色*/
+        }
+
+        /*超链接样式*/
+        a{
+            text-decoration: none;  /*去除超链接的下划线*/
+            color: blue;            /*超链接颜色*/
+        }
+    </style>
+</head>
+<body>
+    <div><img src="img/logo.png" /> </div>
+    <div class="center">
+        <form action="#" method="get" autocomplete="on">
+        <table width="100%">
+<!--            <table>-->
+            <thead>
+            <tr>
+                <th colspan="2">登&nbsp;&nbsp;录&nbsp;&nbsp;注&nbsp;&nbsp;册</th>
+            </tr>
+
+            </thead>
+<!--            </table>-->
+
+            <tbody>
+
+                <tr>
+                    <td>
+                        <label for="username">用户名:</label>
+                    </td>
+                    <td>
+                        <input id="username" name="username" type="text" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">密码:</label>
+                    </td>
+                    <td>
+                        <input id="password" name="password" type="password" required/>
+                    </td>
+                </tr>
+                </form>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">提交</button>
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
+    <div class="footer">
+        <br/><br/>
+        登录/注册即表示您同意&nbsp;&nbsp;
+        <a href="#" target="_blank">用户协议</a>&nbsp;&nbsp;
+        和&nbsp;&nbsp;
+        <a href="#" target="_blank">隐私条款</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" target="_blank">忘记密码?</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+    <style>
+        body{
+            background: url("img/bg.png");
+        }
+        .center{
+            background: white;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="img/logo.png" />
+    </div>
+    <div class="center">
+        <div>注册申请</div>
+        <hr/>
+        <form action="#" method="get" autocomplete="on" >
+            <div>
+                <label for="hidden"></label>
+                <input id="hidden" name="hidden" type="hidden" value="罗罗罗罗罗罗"/>
+            </div>
+        <div>
+                <label for="username">用户名:</label>
+                <input id="username" name="username" type="search" placeholder="请输入用户名" value="" required />
+        </div>
+        <div>
+            <label for="password">密码:</label>
+            <input id="password" name="password" type="password" value="" placeholder="" required/>
+        </div>
+         <div>
+             <label for="email">邮箱:</label>
+             <input id="email" name="email" type="email" value="" placeholder="请输入邮箱" required/>
+         </div>
+            <div>
+                <label for="gender">性别:</label>
+                <input id="gender" name="gender" type="radio" required value="men">男
+                <input name="gender" type="radio" required value="women">女
+            </div>
+            <div>
+                <label for="tel">手机号:</label>
+                    <input id="tel" name="tel" type="number" value="" placeholder="请输入手机号" required/>
+            </div>
+            <div>
+                <label for="file">选择文件:</label>
+                <input id="file" name="file" type="file" value="" required />
+            </div>
+            <div>
+                <label for="url">网址:</label>
+                <input id="url" name="url" type="url" value="" required/>
+            </div>
+            <div>
+                <label for="bir">生日:</label>
+                <input id="bir" name="bir" value="" type="date" required/>
+            </div>
+            <div>
+                <label for="lucky">运气值:</label>
+                <input id="lucky" name="lucky" type="range" value="" min="0" max="10" step="1" required />
+            </div>
+            <div>
+                <lable for="serch">可删除文本</lable>
+                <input id="serch" name="serch" type="search" value="" />
+            </div>
+            <div>
+                <label for="time">注册日期</label>
+                <input id="time" name="time" type="datetime-local" value="" required/>
+            </div>
+            <div>
+                <label for="hobby">爱好:</label>
+                <input id="hobby" name="hobby" type="checkbox" value="music">音乐
+                <input name="hobby" type="checkbox" value="movie">电影
+                <input name="hobby" type="checkbox" value="swimming">游泳
+                <input name="hobby" type="checkbox" value="running">跑步
+            </div>
+            <div>
+                <label for="city">所在地:</label>
+                <select id="city" name="city">
+                    <option>---请选择城市---</option>
+                   <optgroup label="直辖市">
+                    <option>北京</option>
+                    <option>上海</option>
+                    <option>天津</option>
+                   </optgroup>
+                    <optgroup label="省会城市">
+                        <option>济南</option>
+                        <option>郑州</option>
+                        <option>武汉</option>
+                        <option>银川</option>
+                    </optgroup>
+                </select>
+                <hr/>
+            </div>
+
+            <div>
+                <label for="txt">个人介绍:</label>
+                <textarea id="txt" name="txt" rows="5" cols="40"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">提交</button>
+                <button type="reset">重置</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
